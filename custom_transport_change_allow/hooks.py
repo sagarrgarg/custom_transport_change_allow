@@ -8,6 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
@@ -26,8 +27,10 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/custom_transport_change_allow/css/custom_transport_change_allow.css"
-# app_include_js = "/assets/custom_transport_change_allow/js/custom_transport_change_allow.js"
-
+app_include_js = "/assets/custom_transport_change_allow/js/custom_transport_change_allow.js"
+# override_whitelisted_methods = {
+#     "india_compliance.gst_india.utils.update_transport_details": "custom_transport_change_allow.patch.update_vehicle_or_transporter"
+# }
 # include js, css files in header of web template
 # web_include_css = "/assets/custom_transport_change_allow/css/custom_transport_change_allow.css"
 # web_include_js = "/assets/custom_transport_change_allow/js/custom_transport_change_allow.js"
